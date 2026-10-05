@@ -38,7 +38,7 @@ def test_table_has_one_row_per_repository(tmp_path):
     lines = table(tmp_path).splitlines()
     assert lines[0].startswith("| Repository |")
     assert len(lines) == 2 + len(REPOS)
-    assert "[finance-document-agent](https://github.com/iteamcollage/finance-document-agent)" in lines[2]
+    assert "[finance-document-agent](https://github.com/i-teamcollage/finance-document-agent)" in lines[2]
 
 
 def test_table_reads_each_repository_report(tmp_path):

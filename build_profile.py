@@ -73,7 +73,7 @@ def _report(root: Path, repo: str) -> dict | None:
 def table(root: Path) -> str:
     lines = ["| Repository | What it does | Measured on made-up data |", "|---|---|---|"]
     for repo, description, criterion_ids in REPOS:
-        link = f"[{repo}](https://github.com/iteamcollage/{repo})"
+        link = f"[{repo}](https://github.com/i-teamcollage/{repo})"
         lines.append(f"| {link} | {description} | {headline(_report(root, repo), criterion_ids)} |")
     return "\n".join(lines)
 

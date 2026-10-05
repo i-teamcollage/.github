@@ -10,11 +10,11 @@ in a minute.
 <!-- repos:start -->
 | Repository | What it does | Measured on made-up data |
 |---|---|---|
-| [finance-document-agent](https://github.com/iteamcollage/finance-document-agent) | Reads invoices, payment requests and contracts in English, French and German, and accepts a field only when the code can prove it. | Not measured yet |
-| [support-triage-agent](https://github.com/iteamcollage/support-triage-agent) | Closes routine support tickets with a grounded reply, routes the rest with a handover, and never touches what a person must handle. | Not measured yet |
-| [text-to-sql-agent](https://github.com/iteamcollage/text-to-sql-agent) | Turns an analyst's question into SQL, shows it before it runs, and keeps every query inside the guardrails. | Not measured yet |
-| [incident-rca-agent](https://github.com/iteamcollage/incident-rca-agent) | Starts from a monitoring alert and writes a root-cause analysis in which every claim cites its source. | Not measured yet |
-| [salesforce-sales-pipeline](https://github.com/iteamcollage/salesforce-sales-pipeline) | A written sales-process brief built in Salesforce: three pipelines, eight automations and access rules, each requirement proven by a test in a real org. | Not measured yet |
+| [finance-document-agent](https://github.com/i-teamcollage/finance-document-agent) | Reads invoices, payment requests and contracts in English, French and German, and accepts a field only when the code can prove it. | Not measured yet |
+| [support-triage-agent](https://github.com/i-teamcollage/support-triage-agent) | Closes routine support tickets with a grounded reply, routes the rest with a handover, and never touches what a person must handle. | Not measured yet |
+| [text-to-sql-agent](https://github.com/i-teamcollage/text-to-sql-agent) | Turns an analyst's question into SQL, shows it before it runs, and keeps every query inside the guardrails. | Not measured yet |
+| [incident-rca-agent](https://github.com/i-teamcollage/incident-rca-agent) | Starts from a monitoring alert and writes a root-cause analysis in which every claim cites its source. | Not measured yet |
+| [salesforce-sales-pipeline](https://github.com/i-teamcollage/salesforce-sales-pipeline) | A written sales-process brief built in Salesforce: three pipelines, eight automations and access rules, each requirement proven by a test in a real org. | Not measured yet |
 <!-- repos:end -->
 
 ## How we work
