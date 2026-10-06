@@ -30,6 +30,12 @@ def test_headline_marks_a_failed_criterion_honestly():
     assert "below target" in headline(failed, ["straight_through"])
 
 
+def test_a_criterion_without_a_value_says_not_measured_yet_rather_than_below_target():
+    report = {"criteria": [{"id": "org_tests_passing", "label": "Apex tests passing in a real Salesforce org",
+                            "unit": "rate", "value": None, "passed": False}]}
+    assert headline(report, ["org_tests_passing"]) == "Apex tests passing in a real Salesforce org: not measured yet"
+
+
 def test_missing_report_says_not_measured_yet():
     assert headline(None, ["bank_auto_precision"]) == "Not measured yet"
 

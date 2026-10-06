@@ -48,8 +48,8 @@ REPOS = [
 def _format(criterion: dict) -> str:
     value = criterion.get("value")
     if value is None:
-        text = "n/a"
-    elif criterion.get("unit") == "count":
+        return f"{criterion['label']}: not measured yet"
+    if criterion.get("unit") == "count":
         text = f"{value:g}"
     else:
         text = f"{value * 100:.1f}%"

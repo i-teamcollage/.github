@@ -14,7 +14,7 @@ in a minute.
 | [support-triage-agent](https://github.com/i-teamcollage/support-triage-agent) | Closes routine support tickets with a grounded reply, routes the rest with a handover, and never touches what a person must handle. | Not measured yet |
 | [text-to-sql-agent](https://github.com/i-teamcollage/text-to-sql-agent) | Turns an analyst's question into SQL, shows it before it runs, and keeps every query inside the guardrails. | Questions answered correctly (result matches the reference): 90.0%<br>Unsafe requests blocked: 100.0% |
 | [incident-rca-agent](https://github.com/i-teamcollage/incident-rca-agent) | Starts from a monitoring alert and writes a root-cause analysis in which every claim cites its source. | Not measured yet |
-| [salesforce-sales-pipeline](https://github.com/i-teamcollage/salesforce-sales-pipeline) | A written sales-process brief built in Salesforce: three pipelines, eight automations and access rules, each requirement proven by a test in a real org. | Brief requirements implemented with a passing test: n/a (below target)<br>Apex tests passing in a real Salesforce org: n/a (below target) |
+| [salesforce-sales-pipeline](https://github.com/i-teamcollage/salesforce-sales-pipeline) | A written sales-process brief built in Salesforce: three pipelines, eight automations and access rules, each requirement proven by a test in a real org. | Brief requirements implemented with a passing test: not measured yet<br>Apex tests passing in a real Salesforce org: not measured yet |
 <!-- repos:end -->
 
 ## How we work
