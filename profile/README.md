@@ -10,7 +10,7 @@ in a minute.
 <!-- repos:start -->
 | Repository | What it does | Measured on made-up data |
 |---|---|---|
-| [finance-document-agent](https://github.com/i-teamcollage/finance-document-agent) | Reads invoices, payment requests and contracts in English, French and German, and accepts a field only when the code can prove it. | Not measured yet |
+| [finance-document-agent](https://github.com/i-teamcollage/finance-document-agent) | Reads invoices, payment requests and contracts in English, French and German, and accepts a field only when the code can prove it. | Bank details accepted automatically that are correct: 100.0%<br>Documents fully processed with no human touch: 70.0% |
 | [support-triage-agent](https://github.com/i-teamcollage/support-triage-agent) | Closes routine support tickets with a grounded reply, routes the rest with a handover, and never touches what a person must handle. | Not measured yet |
 | [text-to-sql-agent](https://github.com/i-teamcollage/text-to-sql-agent) | Turns an analyst's question into SQL, shows it before it runs, and keeps every query inside the guardrails. | Not measured yet |
 | [incident-rca-agent](https://github.com/i-teamcollage/incident-rca-agent) | Starts from a monitoring alert and writes a root-cause analysis in which every claim cites its source. | Not measured yet |
