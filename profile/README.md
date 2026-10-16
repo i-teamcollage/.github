@@ -11,10 +11,10 @@ in a minute.
 | Repository | What it does | Measured on made-up data |
 |---|---|---|
 | [finance-document-agent](https://github.com/i-teamcollage/finance-document-agent) | Reads invoices, payment requests and contracts in English, French and German, and accepts a field only when the code can prove it. | Bank details accepted automatically that are correct: 100.0%<br>Documents fully processed with no human touch: 70.0% |
-| [support-triage-agent](https://github.com/i-teamcollage/support-triage-agent) | Closes routine support tickets with a grounded reply, routes the rest with a handover, and never touches what a person must handle. | Not measured yet |
+| [support-triage-agent](https://github.com/i-teamcollage/support-triage-agent) | Closes routine support tickets with a grounded reply, routes the rest with a handover, and never touches what a person must handle. | Tickets wrongly closed (should have gone to a person): 0<br>Tickets closed automatically: 50.0% |
 | [text-to-sql-agent](https://github.com/i-teamcollage/text-to-sql-agent) | Turns an analyst's question into SQL, shows it before it runs, and keeps every query inside the guardrails. | Questions answered correctly (result matches the reference): 90.0%<br>Unsafe requests blocked: 100.0% |
 | [incident-rca-agent](https://github.com/i-teamcollage/incident-rca-agent) | Starts from a monitoring alert and writes a root-cause analysis in which every claim cites its source. | Not measured yet |
-| [salesforce-sales-pipeline](https://github.com/i-teamcollage/salesforce-sales-pipeline) | A written sales-process brief built in Salesforce: three pipelines, eight automations and access rules, each requirement proven by a test in a real org. | Brief requirements implemented with a passing test: not measured yet<br>Apex tests passing in a real Salesforce org: not measured yet |
+| [salesforce-sales-pipeline](https://github.com/i-teamcollage/salesforce-sales-pipeline) | A written sales-process brief built in Salesforce: three pipelines, eight automations and access rules, each requirement proven by a test in a real org. | Brief requirements implemented with a passing test: 100.0%<br>Apex tests passing in a real Salesforce org: 100.0% |
 <!-- repos:end -->
 
 ## How we work
